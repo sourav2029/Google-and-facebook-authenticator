@@ -2,7 +2,7 @@
 
 1.Create a directory where you want to clone the project.
 
-command : git clone https://github.com/sourav2029/Google-and-facebook-authenticator/edit/master/README.md
+command : git clone https://github.com/sourav2029/Google-and-facebook-authenticator.git
 
 2.Open the terminal and navigate to the above directory
 
