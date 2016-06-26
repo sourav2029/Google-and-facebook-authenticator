@@ -3,13 +3,17 @@
   <title>{{title}}</title>
 </head>
 <body>
-  <form action="" method="post">
+  <form action="/login" method="post">
     Email:<br>
-    <input type=text name="email"><br>
+    <input type=text name="username"><br>
     Password:<br>
     <input type="password" name="password"><br>
     <button>Login</button>
   </form>
   {{error}}
+
+  {% if error =="User Not Found" %}
+   <a href="login">Login Here</a>
+    {% endif %}
 </body>
 </html>

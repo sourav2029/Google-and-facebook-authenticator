@@ -14,7 +14,7 @@ module.exports=function(req,res){
 				res.render('login',{title:'Errorw',error:'wrong Username or password'});
 			else
 				{
-					res.render('welcome',{name:email ,title:'Successful Login'});
+					res.render('welcome',{name:email,title:'Successful Login'});
 				}
 		});
 }
